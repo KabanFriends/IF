@@ -1,0 +1,8 @@
+jdk:
+  - openjdk21
+install: |
+  mvn paper-nms:init -pl nms/1_20_6
+  mvn paper-nms:init -pl nms/1_21_0
+  mvn paper-nms:init -pl nms/1_21_1
+  mvn paper-nms:init -pl nms/1_21_2-3
+  mvn install
